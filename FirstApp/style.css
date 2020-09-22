@@ -1,0 +1,22 @@
+body {
+   height: 100vh;
+
+   background: radial-gradient(#FF2D00, #FFD200);
+   background-repeat: no-repeat;
+
+   overflow: hidden;
+}
+
+.container {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.header {
+   font-weight: bold;
+   font-size: 50px;
+   color: #0047FF;
+   align-self: center;
+}
