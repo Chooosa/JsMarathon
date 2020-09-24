@@ -1,7 +1,7 @@
 body {
    height: 100vh;
 
-   background: radial-gradient(#FF2D00, #FFD200);
+   background: radial-gradient(#9FF1FF, #fff);
    background-repeat: no-repeat;
 
    overflow: hidden;
@@ -12,11 +12,35 @@ body {
    display: flex;
    justify-content: center;
    align-content: center;
+   flex-direction: column;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.wrapper button {
+   margin: 10px;
+   border-radius: 30px;
+
+   width: 150px;
+   height: 75px;
+
+   font-size: 20px;
+   font-weight: bold;
+
+   background-color: #34E1FF;
+   border: none;
+   outline: none;
+
+   cursor: pointer;
 }
 
 .header {
    font-weight: bold;
    font-size: 50px;
-   color: #0047FF;
+   color: #FF03CF;
    align-self: center;
 }
